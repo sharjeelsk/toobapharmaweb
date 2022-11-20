@@ -23,8 +23,7 @@ function Contact() {
        Paithan Industrial Area,
        Dist. Aurangabad. Maharashtra, India</p>
 
-       <p><b>Tel</b> : +919860581297,
-          +919373680996</p>
+       <p><b>Tel</b> : +91 9975827056, +91 7798005007</p>
 
        <p><b>Registered Office</b> : Plot No. 4/8/65,
     Nawabpura, Aurangabad 431001, India</p>
