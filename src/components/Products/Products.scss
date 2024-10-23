@@ -1,0 +1,23 @@
+@import  "../../App.scss";
+
+.products{
+    padding: 0 2%;
+    h1{
+        font-size: 3em;
+        font-weight: 500;
+        margin-bottom: 2%;
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+        font-size: 2em;
+        font-weight: 300;
+    }
+    .api-cont{
+        margin: 3% auto;
+        text-align: center;
+    }
+    .table-div{
+        margin: 2% 10%;
+    }
+}

@@ -1,0 +1,304 @@
+@import "../App.scss";
+.carousel1{
+    margin: 0 !important;
+    width: 100vw;
+}
+.section1{
+background-image:url('../assets/WhatsApp Image 2022-03-10 at 4.47.45 PM.jpeg');
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+height: 100vh;
+width: 100vw;
+text-align: center;
+.namecontainer{
+width: 90%;
+margin: auto;
+padding: 5%;
+background: rgba(0, 0, 0, 0.349);
+border-radius: 10px;
+backdrop-filter: blur(1px);
+color: white;
+    img{
+        width: 10%;
+    }
+    h1{
+        font-size: 300%;
+        font-weight: 800;
+        //color: #00ffb3;
+    }
+    p{
+        font-size: 2.1em;
+        font-weight: 300;
+    }
+    blockquote{
+        font-size: 1.2em;
+        line-height: 1.5;
+        margin: 0 10%;
+        color: #ccc;
+        font-weight: 300;
+    }
+    .icon{
+        font-size: 2em;
+    }
+}
+}
+
+.section2{
+    margin: 5% 0 !important;
+    padding: 1% 10%;
+    .info{
+        border-left: 5px solid $primary;
+        p{
+            text-align: justify;
+        }
+    }
+    img{
+        width: 80%;
+        display: block;
+        margin: auto;
+        border-radius: 10px;
+        border: 5px solid $tertiary;
+    }
+    h2{
+        font-size: 2.5em;
+        font-weight: 500;
+        color: $primary;
+    }
+    p{
+        line-height: 1.7;
+        font-weight: 400;
+    }
+}
+
+.gallerysection{
+    margin: 12% 0 !important;
+    img{
+        width: 100%;
+    }
+    .info{
+        border-left: 5px solid $primary;
+        h2{
+            font-size: 3em;
+            font-weight: 400;
+            color: $primary;
+        }
+        p{
+            line-height: 1.5;
+            text-align: justify;
+        }
+    }
+}
+
+.section3{
+background-image:url('../assets/apiprod.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+height: 100%;
+width: 100vw;
+margin: 2% 0;
+color: white;
+padding: 4% 2%;
+
+.heading{
+    width: 30%;
+    margin: auto;
+}
+    h2{
+        text-align: center;
+        font-size: 2.5em;
+        font-weight: 700;
+        color: $primary;
+    }
+
+}
+.blurcontainer{
+    border-radius: 10px;
+backdrop-filter: blur(1px);
+background: rgba(3, 45, 29, 0.705);
+
+}
+.api-product-container{
+    padding: 2%;
+    P{
+        color: white;
+    }
+    div{
+        padding: 2%;
+        margin: 2% 2%;
+        text-align: center;
+    }
+    .compname{
+        font-size: 1.8em;
+    }
+    span{
+        font-size: .7em;
+        color: #f0f0f0;
+    }
+}
+
+.incom-api
+{
+    text-align: center;
+}
+
+
+.incoming-api{
+    h1{
+        text-align: center;
+        font-size: 2.5em;
+    }
+}
+
+.section4{
+    text-align: center;
+    margin: 5% auto;
+    h1{
+        font-size: 3em;
+        font-weight: 300;
+    }
+    h2{
+        font-size: 3em;
+        font-weight: 400;
+        color: $primary;
+        border-bottom: 5px solid $primary;
+        margin: 1% 30%;
+        padding-bottom: 1%;
+    }
+    .item{
+        margin: 2% 3%;
+        padding: 3% 0;
+        border-radius: 15px;
+        height: 100%;
+        h3{
+            font-size: 1.5em;
+        }
+        p{
+            font-size: 1.2em;
+            font-weight: 300;
+            color: #a1a1a1;
+        }
+        /* Created with https://www.css-gradient.com */
+        img{
+            border-radius: 10px;
+        border: 2px solid $tertiary;
+        width: 70%;
+        }
+background: #018f6444;
+background: -webkit-linear-gradient(top left, #018f6444, #b1ffe823);
+background: -moz-linear-gradient(top left, #018f6444, #b1ffe823);
+background: linear-gradient(to bottom right, #018f6444, #b1ffe823);
+    }
+}
+
+
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+
+}
+@media (max-width: 576px) {
+.section1{
+    height: 100%;
+    .namecontainer{
+        h1{
+            font-size: 2em;
+        }
+        p{
+            font-size: 1.5em;
+        }
+        blockquote{
+            font-size: 1em;
+        }
+    }
+}
+
+.section2{
+    margin: 10% 0 !important;
+    padding: 1% 10%;
+    text-align: center;
+  
+    h2{
+        margin-top: 10%;
+    }
+    
+}
+.gallerysection{
+    margin: 20% 0 !important;
+    img{
+        width: 95vw;
+        margin-bottom: 10%;
+    }
+}
+
+.section3{
+    margin: 2% 0;
+    padding: 15% 5%;
+    .heading{
+        width: 100%;
+        font-size: .7em;
+        margin:5% auto;
+    }
+        h2{
+            text-align: center;
+            font-size: 2.5em;
+            font-weight: 700;
+            color: $primary;
+        }
+    .api-product-container{
+        padding: 2%;
+        div{
+            padding: 2%;
+            margin: 2% 2%;
+            text-align: center;
+            height: 100%;
+            
+        }
+        .compname{
+        }
+    }
+    }
+
+    .incoming-api{
+        .compname{
+            font-size: 1.2em;
+        }
+    }
+
+
+    .section4{
+        text-align: center;
+        margin: 20% auto;
+        h2{
+            font-size: 3em;
+            font-weight: 400;
+            margin: 10% 10%;
+            padding-bottom: 2%;
+        }
+        .item{
+            margin: 2% 3%;
+            padding: 3% 0;
+            border-radius: 15px;
+            h3{
+                font-size: 1.2em;
+            }
+            p{
+                font-size: 1.0em;
+                font-weight: 300;
+                color: #a1a1a1;
+            }
+            /* Created with https://www.css-gradient.com */
+            img{
+                border-radius: 10px;
+                width: 100%;
+            border: 2px solid $tertiary;
+    
+            }
+        }
+    }
+    
+}
+
