@@ -2,7 +2,11 @@
   "name": "bstorage",
   "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
   "engines": {
+=======
+    "engines": {
+>>>>>>> 7519f39f1810f895c203b2eabe8369beb7dceb89
     "node": ">=18.x"
   },
   "dependencies": {
