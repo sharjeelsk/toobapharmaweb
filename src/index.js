@@ -1,49 +1,86 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client';  // import createRoot from React 18
+import ReactDOM from 'react-dom';
 import App from './App';
-import { BrowserRouter } from 'react-router-dom';
-import { Provider } from 'react-redux';
-import { store, Persister } from './components/redux/Store';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { PersistGate } from 'redux-persist/integration/react';
+import {BrowserRouter} from 'react-router-dom'
+import {Provider} from 'react-redux'
+import {store,Persister} from './components/redux/Store'
+import { createTheme,ThemeProvider } from '@mui/material/styles';
+import { PersistGate } from 'redux-persist/integration/react'
 
 const theme = createTheme({
   palette: {
-    primary: { main: "#019267" },
-    secondary: { main: "#ccc" },
-    tertiary: { main: "#b66dff" },
+    primary: {
+      main: "#019267",
+    },
+    secondary: {
+      main: "#ccc",
+    },
+    tertiary:{
+      main:"#b66dff"
+    },
   },
-  components: {
-    MuiButton: {
-      styleOverrides: { root: { '&:focus': { outline: 'none' } } }
+  components:{
+    MuiButton:{
+      styleOverrides:{
+        root:{
+         '&:focus':{
+           outline:'none'
+         }
+        }
+      }
     },
-    MuiIconButton: {
-      styleOverrides: { root: { '&:focus': { outline: 'none' } } }
+    MuiIconButton:{
+      styleOverrides:{
+        root:{
+         '&:focus':{
+           outline:'none'
+         }
+        }
+      }
     },
-    MuiTab: {
-      styleOverrides: { root: { '&:focus': { outline: 'none' } } }
+    MuiTab:{
+      styleOverrides:{
+        root:{
+          '&:focus':{
+            outline:'none'
+          }
+        }
+      }
     },
-    MuiPagination: {
-      styleOverrides: { root: { '&:focus': { outline: 'none' } } }
+    MuiPagination:{
+      styleOverrides:{
+        root:{
+          '&:focus':{
+            outline:'none'
+          }
+        }
+      }
     },
-    MuiPaginationItem: {
-      styleOverrides: { root: { '&:focus': { outline: 'none' } } }
+    MuiPaginationItem:{
+      styleOverrides:{
+        root:{
+          '&:focus':{
+            outline:'none'
+          }
+        }
+      }
     }
   }
 });
 
-// Correct way for React 18
-const root = createRoot(document.getElementById('root'));  // createRoot instead of ReactDOM.render
-root.render(
+
+ReactDOM.render(
   <Provider store={store}>
-    <PersistGate loading={null} persistor={Persister}>
-      <BrowserRouter>
-        <ThemeProvider theme={theme}>
-          <App />
-        </ThemeProvider>
-      </BrowserRouter>
+  <PersistGate loading={null} persistor={Persister}>
+    <BrowserRouter>
+    <ThemeProvider theme={theme}>
+    <App />
+    </ThemeProvider>
+    </BrowserRouter>
     </PersistGate>
-  </Provider>
+    </Provider>
+,
+  document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function

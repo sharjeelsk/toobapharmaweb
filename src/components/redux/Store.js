@@ -1,7 +1,7 @@
 import {createStore,applyMiddleware} from 'redux'
 import logger from 'redux-logger'
 import RootReducer from './RootReducer'
-import {thunk} from 'redux-thunk'
+import thunk from 'redux-thunk'
 import { persistStore,persistReducer } from 'redux-persist'
 import storageSession from 'redux-persist/lib/storage/session'
 // export const JSOGTransform = createTransform(

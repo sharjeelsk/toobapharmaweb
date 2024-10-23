@@ -29,9 +29,7 @@ function Products() {
                         <img src={Trazodone} alt="tarazadone" />
                         <h4>Trazodone Hydrochloride</h4>
                         <h4>(CAS No.: 25332-39-2)</h4>
-                        <p>Trazodone Hydrochloride IP</p>
                         <p>Trazodone Hydrochloride USP</p>
-                        <p>Trazodone Hydrochloride Ph.Eur</p>
                         <p>Trazodone Hydrochloride BP</p>
                     </div>
                     <div className="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 api-cont">
@@ -45,18 +43,17 @@ function Products() {
                         <img src={Mexiletine} alt="tarazadone" />
                         <h4>Mexiletine Hydrochloride</h4>
                         <h4>(CAS No.: 5370-01-4)</h4>
-                        <p>Mexiletine Hydrochloride IP</p>
                         <p>Mexiletine Hydrochloride Ph.Eur</p>
                         <p>Mexiletine Hydrochloride USP</p>
                     </div>
-                    {/* <div className="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 api-cont">
+                    <div className="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 api-cont">
                         <img src={Nitrofurantoin} alt="tarazadone" />
                         <h4>Nitrofurantoin</h4>
                         <h4>(CAS No.: 67-20-09)</h4>
                         <p>Nitrofurantoin Ph.Eur</p>
                         <p>Nitrofurantoin USP</p>
                         <p>Nitrofurantoin IP</p>
-                    </div> */}
+                    </div>
                     <div className="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 api-cont">
                         <img src={Tamsulosin} alt="tarazadone" />
                         <h4>Tamsulosin Hydrochloride</h4>

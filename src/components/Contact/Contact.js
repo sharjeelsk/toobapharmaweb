@@ -23,19 +23,11 @@ function Contact() {
        Paithan Industrial Area,
        Dist. Aurangabad. Maharashtra, India</p>
 
-       {/* <p><b>Tel</b> : +91 9975827056, +91 7798005007</p> */}
+       <p><b>Tel</b> : +91 9975827056, +91 7798005007</p>
 
        <p><b>Registered Office</b> : Plot No. 4/8/65,
     Nawabpura, Aurangabad 431001, India</p>
-
-    <p><b>For Sales Department & Business Related Inquiries:</b> </p>
-       <p><b>Email</b> :sales@toobapharma.in</p>
-       <p><b>Mobile</b> : +91 7798005007</p>
-
-       <p><b>For Purchase Department & Other Inquiries::</b> </p>
-       <p><b>Email</b> :info@toobapharma.in</p>
-       <p><b>Mobile</b> : +91 9011986111</p>
-    {/* <p><b>Email</b> :info@toobapharma.in</p> */}
+    <p><b>Email</b> :info@toobapharma.in</p>
             </div>
             <div onClick={()=>{
               window.location.href="https://www.google.com/maps/place/Tooba+Pharmaceuticals+Private+Limited/@19.6075622,75.3493388,10.67z/data=!4m5!3m4!1s0x3bdb988affffffff:0xea8f3451fa731741!8m2!3d19.537686!4d75.3880832"

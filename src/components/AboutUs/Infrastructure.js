@@ -22,7 +22,7 @@ function Infrastructure() {
               <tr>
                 <td data-label="Name">1</td>
                 <td data-label="Age">R&D</td>
-                <td data-label="Job">Autoclave/Hydrogenator, Photochemical Reactors, Glass Assemblies etc.</td>
+                <td data-label="Job">Autoclave/Hydrogenetor, Photochemical Reactors, Glass Assemblies etc.</td>
               </tr>
               <tr>
                 <td data-label="Name">2</td>
@@ -58,32 +58,32 @@ function Infrastructure() {
                 <td data-label="Job">Boiler, Cooling Tower, Chiller, Vacuum Pumps, Air compressor, Etc.</td>
               </tr>
               <tr>
-                <td data-label="Name">6</td>
+                <td data-label="Name">5</td>
                 <td data-label="Age">Solvent Yard</td>
                 <td></td>
               </tr>
               <tr>
-                <td data-label="Name">7</td>
+                <td data-label="Name">5</td>
                 <td data-label="Age">Packaging store</td>
                 <td></td>
               </tr>
               <tr>
-                <td data-label="Name">8</td>
+                <td data-label="Name">5</td>
                 <td data-label="Age">Stores</td>
                 <td></td>
               </tr>
               <tr>
-                <td data-label="Name">9</td>
+                <td data-label="Name">5</td>
                 <td data-label="Age">Administration Block	</td>
                 <td></td>
               </tr>
               <tr>
-                <td data-label="Name">10</td>
+                <td data-label="Name">5</td>
                 <td data-label="Age">Common Area	</td>
                 <td></td>
               </tr>
               <tr>
-                <td data-label="Name">11</td>
+                <td data-label="Name">5</td>
                 <td data-label="Age">Effluent Treatment Plant	</td>
                 <td></td>
               </tr>
@@ -126,7 +126,6 @@ function Infrastructure() {
         <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 my-2 point-list">
           <h3>Approvals & Certifications</h3>
           <ol className="ui list">
-          <li value="*">WHO GMP Audited & Compliances have been completed</li>
           <li value="*">Environmental Clearance</li>
           <li value="*">Consent to establish</li>
           <li value="*">Consent to operate</li>

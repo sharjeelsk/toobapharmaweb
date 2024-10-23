@@ -51,7 +51,7 @@ function Home() {
                     <h2>Strength</h2>
                     <p>
                     <b>TPPL is in the process of filing four DMFs in regulated market.
-                    TPPL has developed patentable technologies. Recently we have filed patent for  Glycopyrronium Bromide (Application No. 202021022784).</b>
+                    TPPL has developed patentable technologies. Recently we have filed patent for Glycopyrronium Bromide.</b>
                     <br />
                     TPPL has gathered around technocrats with cumulative research experience for almost 90 years and have acclaimed more than 200 patents to their credit. So it is fully poised to meet challenges in developing non- infringing routes for various molecules. As far as regulatory experience is concerned this technical team in past was responsible for filing dozens of DMFs for regulated markets meeting stringent quality requirements. Excellent QA/QC facilities with all required instruments.
                     TPPL believes in developing the product from own methods by using mostly Indian Raw Materials.
@@ -96,12 +96,8 @@ Environment friendliness and safety shall be part of TPPL culture.
                         <br />
                         <span>(CAS No.: 25332-39-2)</span>
                         <br />
-                        <span>Trazodone Hydrochloride IP</span>
-                        <br />
-                        <span>Trazodone Hydrochloride Ph.Eur</span>
-                        <br/>
                         <span>Trazodone Hydrochloride USP</span>
-                        <br/>
+                        <br />
                         <span>Trazodone Hydrochloride BP</span>
                         </p>
                     </div>
@@ -123,10 +119,9 @@ Environment friendliness and safety shall be part of TPPL culture.
                         <span>Mexiletine Hydrochloride Ph.Eur</span>
                         <br />
                         <span>Mexiletine Hydrochloride USP</span>
-                        <span>Mexiletine Hydrochloride IP</span>
                         </p>
                     </div>
-                    {/* <div className="blurcontainer col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <div className="blurcontainer col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <p className="compname">Nitrofurantoin
                         <br />
                         <span>(CAS No.: 67-20-9)</span>
@@ -137,7 +132,7 @@ Environment friendliness and safety shall be part of TPPL culture.
                         <br />
                         <span>Nitrofurantoin Ph.Eur</span>
                         </p>
-                    </div> */}
+                    </div>
                     <div className="blurcontainer col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <p className="compname">Tamsulosin Hydrochloride
                         <br />
@@ -179,17 +174,17 @@ Environment friendliness and safety shall be part of TPPL culture.
             <section className="incoming-api row m-auto justify-content-around api-product-container">
                 
                 <div className="blurcontainer col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                        <p className="compname">Primidone
+                        <p className="compname">Tolterodine Tartrate
                         <br />
-                        (CAS No.: 125-33-7)
+                        (CAS No.: 124937-52-6)
                         <br />
                         </p>
                 </div>
             
                 <div className="blurcontainer col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                        <p className="compname">Nitrofurantoin
+                        <p className="compname">Aripiprazole
                         <br />
-                        (CAS No.: 67-20-9)
+                        (CAS No.: 129722-12-9)
                         <br />
                         </p>
                 </div>
@@ -201,9 +196,9 @@ Environment friendliness and safety shall be part of TPPL culture.
                         </p>
                 </div>
                 <div className="blurcontainer col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                        <p className="compname">Baclofen
+                        <p className="compname">Cinacalcet Hydrochloride
                         <br />
-                        (CAS No.: 1134-47-0)
+                        (CAS No.: 364782-34-3)
                         <br />
                         </p>
                 </div>

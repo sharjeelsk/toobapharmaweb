@@ -9,7 +9,7 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import DownloadIcon from '@mui/icons-material/Download';
-import toobalogo from '../../web data/tooba new logo 2019.png'
+import toobalogo from '../../web data/tooba new logo 2019.jpg'
 
 const Header = (props) => {
 	React.useEffect(()=>{

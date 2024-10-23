@@ -23,7 +23,7 @@ function Vision() {
                 <img src={ecoearth} alt="vision" />
                     <h3>Mission</h3>
                     <p>
-                    TPPL will focus tirelessly on developing novel processes applying contemporary know-how, Inculcating culture of innovation in its technical team, focus will be maintain on consistency and integrity of processes through continuous development, validation and documentation.
+                    TPPL will focus tirelessly on developing novel processes applying contemporary know-how, Inculcating culture of innovation in its technical team, focus will be maintain on consistency and integrity of processes through continuous development, validation and documentation..
                     <br />
                     This shall be achieved by inculcating a culture of innovation in its technical teams.
                     <br />
@@ -36,12 +36,11 @@ function Vision() {
                 <img src={values1} alt="vision" />
                     <h3>Values</h3>
                     <p>
-                    Rely on Research and Innovation.
-                    <br />Adopt Environment Friendly Technologies and Processes.
-                    <br />Integrate Quality in everything that we do. Let the best of Ethics be the guiding principle of all our business operations.
-                    <br/> Develop a Corporate image that evokes confidence and delight.
-                    <br />Provide a Safe Work Environment for our personnel.
-                    <br />Seek Business Growth through efficient production distribution and management.
+                    Rely on Research and Innovation
+                    <br />Adopt Environment Friendly Technologies and Processes
+                    <br />Integrate Quality in everything that we do. Let the best of Ethics be the guiding principle of all our business operations Y Develop a Corporate image that evokes confidence and delight
+                    <br />Provide a Safe Work Environment for our personnel
+                    <br />Seek Business Growth through efficient production distribution and management
                     <br />Adopt Corporate Social Responsibility that espouses the above, in addition to fulfilment of our social, legal, statutory and environmental responsibilities in word and spirit.
                     </p>
                 </div>
